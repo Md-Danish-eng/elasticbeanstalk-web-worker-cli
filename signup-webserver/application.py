@@ -50,7 +50,7 @@ ddb_table = Table(table_name=application.config['STARTUP_SIGNUP_TABLE'],
 sns_conn = sns.connect_to_region(application.config['AWS_REGION'])
 
 
-@application.route("/")
+@application.route('/')
 def welcome():
     theme = application.config['THEME']
     return flask.render_template('index.html', theme=theme, flask_debug=application.debug)
@@ -83,5 +83,5 @@ def publish_to_sns(signup_data):
         sys.stderr.write("Error publishing subscription message to SNS: %s" % ex.message)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     application.run(host='0.0.0.0')
