@@ -64,7 +64,9 @@ Then colne the github repo https://github.com/devops-team-poc/elasticbeanstalk-w
 
 ![image](https://user-images.githubusercontent.com/85988020/175874769-9db2b0bd-7998-4088-a802-617a0dcc5748.png)
 
-### It took sometime to create all the things. Go to the dynamodb and SNS and check there is table and topic created or not.
+### It took sometime to create all the things. Go to the dynamodb and SNS and check there is table and topic created or not, check your email and confirm the subscription.
+
+![image](https://user-images.githubusercontent.com/85988020/175939556-3d25c3ef-2a51-490b-8d85-a180be9ee042.png)
 
 ### Go to the server and run the following commands to site up
 
