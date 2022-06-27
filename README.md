@@ -66,11 +66,9 @@ After configuration, click the Create environment button.
 
 It took sometime to create all the things. Go to the dynamodb and SNS and check there is table and topic created or not.
 
+Go to the server and run the following commands to site up
 
-
- 
 ``` source venv/staging-LQM1lest/bin/activate ```
-
 
 ((staging) ) [root@ip-172-31-14-207 app]# ``` pip freeze ```
 
@@ -109,3 +107,17 @@ then run ``` flask run ```
 after this if app is not openining then go to ``` /etc/nginx/conf.d/elasticbeanstalk/00_application.conf ``` and change the port from 8000 to 5000 
 
 then ``` nginx -t ```  and ``` systemctl restart nginx ``` and check by hit the url of elasticbeanstalk.
+
+![image](https://user-images.githubusercontent.com/85988020/175936927-16dc14dc-a606-4993-8dfd-0218f4d8106f.png)
+
+![image](https://user-images.githubusercontent.com/85988020/175937058-80f1a31b-926f-4a00-b930-b76363002db7.png)
+
+![image](https://user-images.githubusercontent.com/85988020/175937213-f297de9d-d322-4b95-a0e7-fc6aef96db66.png)
+
+
+# HAPPY LEARNING!!!
+
+
+
+
+
