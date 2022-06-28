@@ -1,10 +1,10 @@
 # Deploy python_flask App on Elasticbeanstalk
 
-# To understand Web server environments follow this doc.
+### To understand Web server environments follow this doc.
 
 ```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-webserver.html```
 
-# To understand Worker environments follow this doc.
+### To understand Worker environments follow this doc.
 
 ```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html```
 
