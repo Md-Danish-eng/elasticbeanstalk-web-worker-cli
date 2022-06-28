@@ -1,5 +1,13 @@
 # Deploy python_flask App on Elasticbeanstalk
 
+# To understand Web server environments follow this doc.
+
+```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-webserver.html```
+
+# To understand Worker environments follow this doc.
+
+```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html```
+
 ### Create a ubuntu server
 
 ### Create an IAM user and give permission to that user i gave Administrator Access permission.
