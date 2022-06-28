@@ -85,4 +85,3 @@ def publish_to_sns(signup_data):
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0')
-    #application.run(debug=True, use_reloader=False)
