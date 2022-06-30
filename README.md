@@ -2,11 +2,11 @@
 
 ### To understand Web server environments follow this doc.
 
-```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-webserver.html```
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-webserver.html
 
 ### To understand Worker environments follow this doc.
 
-```https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html```
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-worker.html
 
 ### Create a ubuntu server
 
